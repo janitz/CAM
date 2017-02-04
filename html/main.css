@@ -1,0 +1,16 @@
+textarea {
+    resize: none;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+}
+
+#textarea {
+    background: lightblue;
+}
+
+#canvas {
+    background: lightcoral;
+}
