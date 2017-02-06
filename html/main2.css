@@ -1,0 +1,61 @@
+body {
+    background:grey; 
+    margin:0; 
+    text-align: center;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#menu {
+    background: lightgray;
+    text-align: left;
+}
+
+.menuBtn {
+    background: lightgray;
+    color: #636363;
+    border: 1px solid black;
+    font-family: Arial;
+    font-size: 20px;
+    margin: 3px;
+}
+
+#cmd {
+    background: lightblue;
+    color: #636363;
+    overflow: hidden;
+    width: 100%;
+}
+
+#cmdTxt {
+    float: left;
+    padding: 6px 0;
+    width: 50px;
+}
+.inpContainer {
+    padding: 5px 60px;
+}
+
+#cmdInp {
+    width: 100%;
+    background: white;
+    border: none;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+#cmdBtn {
+    float: right;
+    width: 50px;
+}
+
+#canv {
+    background: black;
+}
+
+
+#mousePos {
+    text-align: right;
+}
+
+
