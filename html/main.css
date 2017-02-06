@@ -8,9 +8,10 @@ textarea {
 }
 
 #textarea {
-    background: lightblue;
+    background: #646464;
+    color: white;
 }
 
 #canvas {
-    background: lightcoral;
+    background: black;
 }
