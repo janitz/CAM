@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>CAM</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link type="text/css" rel="stylesheet" href="main.css">
-        <script type="text/javascript" src="main.js" defer></script>
-        <link type="image/vnd.microsoft.icon" rel="icon" href="favicon.ico">
-    </head>
-    <body> 
-        <div>
-            <textarea id="textarea" wrap="off"></textarea>
-            <canvas id="canvas" height="100px" width="100px"></canvas>
-        </div>
-        <div id="debugger">
-            FOOOO
-        </div>
-    </body>
+	<head>
+		<title>Täst</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<link href="main.css" type="text/css" rel="stylesheet">
+		<script defer type="text/javascript" src="main.js"></script>
+	</head>
+	<body>
+		<div id="menu">
+			<button class="menuBtn">menu</button>
+			<button class="menuBtn">view</button>
+			<button class="menuBtn">tools</button>
+		</div>
+		<div id="cmd">
+			<div id="cmdTxt">cmd:</div>
+			<button id="cmdBtn" class="menuBtn">ok</button>
+			<div class="inpContainer"><input id="cmdInp" type="text" name="cmd"></div>
+		</div>
+		<div>
+			<textarea id="textarea" wrap="off"></textarea><canvas id="canv"></canvas>
+		</div>
+		<div id="mousePos">0</div>
+	</body>
 </html>
-
-
